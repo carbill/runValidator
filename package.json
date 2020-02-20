@@ -1,0 +1,28 @@
+{
+  "name": "runvalidator",
+  "version": "1.0.0",
+  "description": "Paquete con herramientas para validar, formatear y enmascarar rol unico nacional chileno",
+  "main": "module.ts",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/carbill/runValidator.git"
+  },
+  "author": "Carlos Contreras",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/carbill/runValidator/issues"
+  },
+  "homepage": "https://github.com/carbill/runValidator#readme",
+  "dependencies": {
+    "@angular/core": "^9.0.0-rc.14",
+    "@angular/forms": "~9.0.0-rc.14",
+    "@angular/platform-browser": "~9.0.2",
+    "@angular/common": "~9.0.2",
+    "rxjs": "^6.5.3",
+    "tslib": "^1.10.0",
+    "zone.js": "~0.10.2"
+  }
+}
