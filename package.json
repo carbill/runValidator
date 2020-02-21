@@ -1,6 +1,6 @@
 {
-  "name": "run-validator",
-  "version": "1.0.0",
+  "name": "run-validator-pack",
+  "version": "1.0.1",
   "description": "Paquete con herramientas para validar, formatear y enmascarar rol unico nacional chileno",
   "main": "index.ts",
   "scripts": {
