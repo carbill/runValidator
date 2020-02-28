@@ -1,28 +1,49 @@
 {
-  "name": "run-validator-pack",
-  "version": "1.0.1",
-  "description": "Paquete con herramientas para validar, formatear y enmascarar rol unico nacional chileno",
-  "main": "index.ts",
+  "name": "rut-library",
+  "version": "0.0.0",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "ng": "ng",
+    "start": "ng serve",
+    "build": "ng build",
+    "test": "ng test",
+    "lint": "ng lint",
+    "e2e": "ng e2e"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/carbill/runValidator.git"
-  },
-  "author": "Carlos Contreras",
-  "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/carbill/runValidator/issues"
-  },
-  "homepage": "https://github.com/carbill/runValidator#readme",
-  "devDependencies": {
-    "@angular/core": "^9.0.0-rc.14",
-    "@angular/forms": "~9.0.0-rc.14",
-    "@angular/platform-browser": "~9.0.2",
-    "@angular/common": "~9.0.2",
-    "rxjs": "^6.5.3",
+  "private": false,
+  "dependencies": {
+    "@angular/animations": "~9.1.0-next.1",
+    "@angular/common": "~9.1.0-next.1",
+    "@angular/compiler": "~9.1.0-next.1",
+    "@angular/core": "~9.1.0-next.1",
+    "@angular/forms": "~9.1.0-next.1",
+    "@angular/platform-browser": "~9.1.0-next.1",
+    "@angular/platform-browser-dynamic": "~9.1.0-next.1",
+    "@angular/router": "~9.1.0-next.1",
+    "rxjs": "~6.5.4",
     "tslib": "^1.10.0",
     "zone.js": "~0.10.2"
+  },
+  "devDependencies": {
+    "@angular-devkit/build-angular": "~0.901.0-next.0",
+    "@angular-devkit/build-ng-packagr": "~0.901.0-next.0",
+    "@angular/cli": "~9.1.0-next.0",
+    "@angular/compiler-cli": "~9.1.0-next.1",
+    "@angular/language-service": "~9.1.0-next.1",
+    "@types/node": "^12.11.1",
+    "@types/jasmine": "~3.5.0",
+    "@types/jasminewd2": "~2.0.3",
+    "codelyzer": "^5.1.2",
+    "jasmine-core": "~3.5.0",
+    "jasmine-spec-reporter": "~4.2.1",
+    "karma": "~4.4.1",
+    "karma-chrome-launcher": "~3.1.0",
+    "karma-coverage-istanbul-reporter": "~2.1.0",
+    "karma-jasmine": "~3.0.1",
+    "karma-jasmine-html-reporter": "^1.4.2",
+    "ng-packagr": "^9.0.0",
+    "protractor": "~5.4.3",
+    "ts-node": "~8.3.0",
+    "tslint": "~5.18.0",
+    "typescript": "~3.7.5"
   }
 }

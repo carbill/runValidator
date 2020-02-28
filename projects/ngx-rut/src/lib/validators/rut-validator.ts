@@ -27,7 +27,7 @@ export function rutValidator(control: AbstractControl): ValidationErrors | null 
     const dvExpected = 11 - (sum % 11);
     dv = (dv === 'K') ? 10 : dv;
     dv = (dv === 0) ? 11 : dv;
-    if (dvExpected != dv) {
+    if (+dvExpected !== +dv) {
       return {rutValidator: false};
     }
     return null;
