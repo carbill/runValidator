@@ -1,6 +1,6 @@
 {
   "$schema": "./node_modules/@angular/cli/lib/config/schema.json",
-  "version": 1, 
+  "version": 1,
   "newProjectRoot": "projects",
   "projects": {
     "RutLibrary": {
@@ -159,6 +159,10 @@
           }
         }
       }
-    }},
-  "defaultProject": "RutLibrary"
+    }
+  },
+  "defaultProject": "RutLibrary",
+  "cli": {
+    "analytics": "58222792-382a-486e-9937-5a3684735639"
+  }
 }
